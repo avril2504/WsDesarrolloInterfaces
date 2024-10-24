@@ -1,0 +1,44 @@
+header{
+    background-color: #f2f2f2;
+}
+
+h1{
+    color: black;
+}
+
+.proyecto{
+    border: 1px solid  #ddd;
+    padding: 10px;
+}
+
+input{
+    border: 1px solid #ccc;;
+}
+
+textarea{
+    border:  1px solid #ccc;
+}
+
+button:hover{
+    background-color: #ff9800;;
+}
+
+a:hover{
+    color: rgb(3, 3, 132);
+    text-decoration: underline;
+}
+
+h2::before{
+    content: "";
+    background-image: url('img/folder.jpg');
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    display: inline-block; /* Necesario para definir tamaño */
+    width: 16px; /* Ancho del icono */
+    height: 16px; /* Alto del icono */
+    margin-right: 5px; /* Espacio entre icono y texto */
+    vertical-align: middle; /* Alineación vertical con el texto */
+}
+
+header p::after{
+    content: "*";
+}

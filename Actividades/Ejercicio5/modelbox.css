@@ -1,0 +1,164 @@
+.div1{
+    padding: 25px 10px;
+    width: 400px;
+    height: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: greenyellow;
+    border-right-color: yellow;
+    border-bottom-color: rgb(0, 195, 255);
+    border-left-color: rgb(255, 0, 162);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.div2{
+    padding: 25px 10px;
+    width: 400px;
+    height: 50px;
+    border-width: 10px;
+    border-top-color: greenyellow;
+    border-top-style: outset;
+    border-right-color: yellow;
+    border-right-style: dotted;
+    border-bottom-color: rgb(0, 195, 255);
+    border-bottom-style: groove;
+    border-left-color: rgb(255, 0, 162);
+    border-left-style: double;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div3{
+    padding: 25px 10px;
+    width: 400px;
+    height: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: greenyellow;
+    border-right-color: yellow;
+    border-bottom-color: rgb(0, 195, 255);
+    border-left-color: rgb(255, 0, 162);
+    text-align: center;
+    border-radius: 0px 20px 50px 20px;
+    margin-bottom: 20px;
+
+}
+
+.div4{
+    padding: 15px 5px;
+    width: 150px;
+    height: 50px;
+    border: 4px solid rgb(14, 202, 14);
+    border-radius: 200px 200px 0px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div5{
+    padding: 15px 5px;
+    width: 130px;
+    height: 50px;
+    border-top: 2px groove rgb(14, 202, 14) ;
+    border-right: 20px ridge rgb(14, 202, 14);
+    border-left: 20px groove rgb(14, 202, 14);
+    border-bottom: 2px dashed rgb(14, 202, 14);
+    border-radius: 100px 100px 0px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div6{
+    width: 180px;
+    height: 100px;
+    border: 3px solid orange;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div7{
+    width: 190px;
+    height: 100px;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left: 14px double plum;
+    border-right: 14px double plum;
+    border-radius: 70px 70px 112px 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div7 p{
+    margin: 2px;
+}
+
+.div8{
+    width: 180px;
+    height: 90px;
+    border: 5px solid rgb(44, 113, 186);
+    border-radius: 10px 50px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div9{
+    width: 180px;
+    height: 90px;
+    border-width: 10px;
+    border-style: groove;
+    border-top-color: greenyellow;
+    border-right-color: yellow;
+    border-bottom-color: rgb(0, 195, 255);
+    border-left-color: rgb(255, 0, 162);
+    border-radius: 10px 50px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div10{
+    width: 180px;
+    height: 90px;
+    border: 5px solid rgb(255, 0, 136);
+    border-radius: 0px 100px 0px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.div11{
+    width: 180px;
+    height: 90px;
+    background-color: rgb(46, 233, 46);
+    border-style: solid;
+    border-top-color: rgb(14, 149, 202);
+    border-top-width: 4px;
+    border-right-color: rgb(14, 149, 202);
+    border-right-width: 20px;
+    border-bottom-color: rgb(202, 14, 117);
+    border-bottom-width: 4px;
+    border-left-color: rgb(202, 14, 117);
+    border-left-width: 20px;
+    border-radius: 0px 100px 0px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

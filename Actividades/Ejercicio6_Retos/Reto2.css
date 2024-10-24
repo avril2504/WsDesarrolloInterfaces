@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(130, 10, 80);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+}
+
+div{
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+    border: 1px solid white;
+    background-color: white;
+}

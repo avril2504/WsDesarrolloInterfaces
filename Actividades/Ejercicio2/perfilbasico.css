@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+}
+
+p{
+    background-color: #f0f0f0;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+.highlight{
+    background-color: #ffffcc;
+}
+
+.importante{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: green;
+}
+
+a:hover{
+    color: orange;
+}
+
+ul li:first-child{
+    background-color: #e0e0e0;
+}
+
+a::before{
+    content: "";
+    background-image: url('img/globoweb.jpg');
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    display: inline-block; /* Necesario para definir tamaño */
+    width: 16px; /* Ancho del icono */
+    height: 16px; /* Alto del icono */
+    margin-right: 5px; /* Espacio entre icono y texto */
+    vertical-align: middle; /* Alineación vertical con el texto */
+}
