@@ -3,6 +3,13 @@ hr{
     border: 1px solid rgb(197, 195, 195);
 }
 
+.contenedor{
+    display: flex;
+    align-items: center;
+    margin-left: 4vh;
+    margin-right: 14vh;
+}
+
 .circulo{
     width: 10vh;
     height: 10vh;
@@ -10,3 +17,11 @@ hr{
     border-radius: 100%;
 }
 
+.texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap: 12vh ;
+    margin-left: auto;
+}
