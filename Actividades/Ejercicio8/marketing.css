@@ -20,22 +20,32 @@
     --text-size-5xl: 7.99rem;
 
     --color-light-bg: #ffffff;
-     --color-light-text: #333333;
+     --color-light-text: black ;
    
     --font-primary-marketing: "Geist Mono", monospace;
     --font-secondary-marketing: "Poppins", serif;
     --font-weight-bold: 900;
     --font-weight-normal: 500;
     --font-weight-thim: 200;
+
+    --border-div: 2px solid black;
 }
 
+.darkTheme{
+    --color-light-bg: black;
+    --color-light-text: white ;
+    --border-div: 2px solid white;
+}
+
+
 body{
+    background-color: var(--color-light-bg);
+    color: var(--color-light-text);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-light-text);
-    margin: 40vh;
+    margin: 10vh;
 }
 
 .container{
@@ -46,12 +56,11 @@ body{
 }
 
 div{
-    border: var(--border-dark);
+    border: var(--border-div);
     width: 80%;
 }
 
 h1,h2,h3,h4,h5{
-    color: var(--color-light-text);
     text-wrap: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -87,7 +96,7 @@ h1,h2,h3,h4,h5{
 }
 
 /* Estilos para los párrafos */
-.caption, .note {
+.caption, .note, .Cp {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -95,13 +104,5 @@ h1,h2,h3,h4,h5{
 }
 
 /* Modo oscuro - Ajustes de color */
-body.darkTheme .caption, body.darkTheme .note {
-    color: var(--color-dark-text);
-}
 
 /* Establecer colores para modo oscuro */
-:root {
-    --color-dark-bg: #121212;
-    --color-dark-text: #eeeeee;
-    --border-dark: white;
-}
