@@ -48,6 +48,20 @@ main{
     height: 24rem;
 }
 
+.card_display{
+    min-height: 72%;
+    width: 100%;
+    position: relative;
+}
+
+.card_icon{
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 5%;
+    right: 5%;
+}
+
 .card_imagen{
     min-height: 72%;
     width: 100%;
@@ -74,28 +88,55 @@ main{
 .results{
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     width: 100%;
     margin-bottom: 1rem;
     justify-content: space-between;
 }
 
 .results_filter{
-    width: 32rem;
+    width: 30rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
 }
 
 .results_tag{
     display: flex;
-    width: 8rem;
-    border: 1px solid darkblue;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1rem;
+    border: 2px solid darkblue;
     
 }
 
 .results_selector{
     width: 16rem;
-    height: 2rem;
-    background-color: yellow;
+    height: 2.5rem;
+    padding: 0 .75;
+    background-color: white;
+    border: 2px solid darkgray;
+    color: rgb(99, 99, 99);
+
+}
+
+.results_text{
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+.results_button{
+    background-color: darkblue;
+    padding: 0.4rem 0.6rem;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.results_clear{
+    color: darkblue;
+    font-weight: bold;
+
 }
