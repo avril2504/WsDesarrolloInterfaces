@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*    text-wrap: nowrap;
+    overflow: hidden;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-size-xs: 0.5rem;
+    --text-size-sm: 0.71rem;
+    --text-size-md: 1rem;
+    --text-size-lg: 1.41rem;
+    --text-size-xl: 2rem;
+    --text-size-2xl: 2.83rem;
+    --text-size-3xl: 4rem;
+    --text-size-4xl: 5.65rem;
+    --text-size-5xl: 7.99rem;
+
+    --color-light-bg: #ffffff;
+     --color-light-text: black ;
+   
+    --font-primary-marketing: "Geist Mono", monospace;
+    --font-secondary-marketing: "Poppins", serif;
+    --font-weight-bold: 900;
+    --font-weight-normal: 500;
+    --font-weight-thim: 200;
+
+    --border-div: 2px solid black;
+}
+
+.darkTheme{
+    --color-light-bg: black;
+    --color-light-text: white ;
+    --border-div: 2px solid white;
+}
+
+
+body{
+    background-color: var(--color-light-bg);
+    color: var(--color-light-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 20px;
+}
+
+div{
+    border: var(--border-div);
+    width: 80%;
+}
+
+h1,h2,h3,h4,h5{
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-primary-marketing);
+}
+
+.Ch1{
+    font-size: var(--text-size-xl);
+}
+.Ch2{
+    font-size: var(--text-size-lg);
+}
+.Ch3{
+    font-size: var(--text-size-md);
+}
+.Ch4{
+    font-size: var(--text-size-sm);
+}
+.Ch5{
+    font-size: var(--text-size-xs);
+}
+
+.font_bold{
+    font-weight: var(--font-weight-bold);
+}
+
+.font_normal{
+    font-weight: var(--font-weight-normal);
+}
+
+.font_thim{
+    font-weight: var(--font-weight-thim);
+}
+
+/* Estilos para los párrafos */
+.caption, .note, .Cp {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-secondary-marketing);
+}
+
+/* Modo oscuro - Ajustes de color */
+
+/* Establecer colores para modo oscuro */

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Signika:wght@300..700&display=swap');
+/*font-family: "Signika", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Signika:wght@300..700&display=swap');
+/*font-family: "Crimson Pro", serif;*/
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root {
+    --font-family-signika: "Signika", sans-serif;
+    --font-family-crimsomPro: "Crimson Pro", serif;
+
+    --color-purple-base: #540D6E;
+    --color-purple-light: #9154A7;
+    --color-purple-medium: #72268D;
+    --color-purple-dark-1: #39024D;
+    --color-purple-dark-2: #190022;
+
+    --color-pink-base: #EE4266;
+    --color-pink-light: #FEECF0;
+    --color-pink-pure: #F6849C;
+    --color-pink-dark: #C70831;
+    --color-pink-darker: #640015;
+
+    --color-blue-base: #4673FC;
+    --color-blue-light: #E5EBFE;
+    --color-blue-lighter: #84A2FC;
+    --color-blue-dark-1: #124BF6;
+    --color-blue-dark-2: #072A92;
+
+    --background: linear-gradient(333deg, rgba(254,236,240,1) 42%, rgba(229,235,254,1) 59%);
+    --background2: linear-gradient(333deg, rgba(254,236,240,1) 35%, rgba(212,178,212,1) 84%, rgba(212,178,212,1) 86%, rgba(179,131,190,1) 99%, rgba(145,84,167,1) 100%);
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10vh;
+}
+
+div{
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vh;
+    height: 120vh;
+}
+
+
+.caja{
+    background-color: var(--color-purple-base);
+    color: var(--color-pink-light);
+}
+
+.cajah1{
+    margin: 1vh;
+    font-family: var(--font-family-signika);
+}
+
+.cajap{
+    margin-bottom: 2vh;
+    font-family: var(--font-family-crimsomPro);
+}
+
+.cajaboton{
+    background-color: var(--color-blue-dark-2);
+    color: var(--color-pink-light);
+    border-radius: 2vh;
+    width: 10vh;
+    height: 4vh;
+}
+
+
+.caja1{
+    background-color: var(--color-pink-base);
+    color: var(--color-blue-light);
+}
+
+.caja1h1{
+    margin: 1vh;
+    font-family: var(--font-family-signika);
+}
+
+.caja1p{
+    margin-bottom: 2vh;
+    font-family: var(--font-family-crimsomPro);
+}
+
+.caja1boton{
+    background-color: var(--color-purple-base);
+    color: var(--color-blue-light);
+    border-radius: 2vh;
+    width: 10vh;
+    height: 4vh;
+}
+
+
+.caja2{
+    background-color: var(--color-purple-dark-1);
+    color: var(--color-pink-light);
+}
+
+.caja2h1{
+    margin: 1vh;
+    font-family: var(--font-family-signika);
+}
+
+.caja2p{
+    margin-bottom: 2vh;
+    font-family: var(--font-family-crimsomPro);
+}
+
+.caja2boton{
+    background-color: var(--color-blue-lighter);
+    color: var(--color-pink-light);
+    border-radius: 2vh;
+    width: 10vh;
+    height: 4vh;
+}
+
+
+.caja3{
+    background-color: var(--color-blue-dark-2);
+    color: var(--color-blue-light);
+}
+
+.caja3h1{
+    margin: 1vh;
+    font-family: var(--font-family-signika);
+}
+
+.caja3p{
+    margin-bottom: 2vh;
+    font-family: var(--font-family-crimsomPro);
+}
+
+.caja3boton{
+    background-color: var(--color-pink-base);
+    color: var(--color-blue-light);
+    border-radius: 2vh;
+    width: 10vh;
+    height: 4vh;
+}

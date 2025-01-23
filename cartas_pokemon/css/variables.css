@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Play:wght@400;700&display=swap');
+
+:root{
+    --font-primary: "Lato", sans-serif;
+    --font-secundary: "Play", sans-serif;
+
+    --text-size-xs: 0.42rem;
+    --text-size-sm: 0.66rem;
+    --text-size-md: 0.8rem;
+    --text-size-lg: 0.96rem;
+    --text-size-xl: 1.15rem;
+    --text-size-2xl: 1.38rem;
+    --text-size-3xl: 1.65rem;
+    --text-size-4xl: 1.98rem;
+    --text-size-5xl: 2.38rem;
+
+    --spasing-xs: 0.15rem;
+    --spasing-s: 0.25rem;
+    --spasing-m: 0.5rem;
+    --spasing-l: 1rem;
+    --spasing-xl: 1.25rem;
+    --spasing-xxl: 1.5rem;
+    --spasing-xxxl: 2rem;
+    --spasing-4xl: 2.5rem;
+    --spasing-8: 8rem;
+    --spasing-10: 10rem;
+    --spasing-12: 12rem;
+    --spasing-16: 16rem;
+    --spasing-20: 20rem;
+    --spasing-40: 40rem;
+
+
+    --font-color: white;
+
+    --color-button: rgb(0, 255, 238);
+
+    --background-agua: linear-gradient(49deg, rgba(0,91,255,1) 4%, rgba(44,239,233,1) 26%, rgba(0,91,255,1) 51%, rgba(44,239,233,1) 74%, rgba(0,91,255,1) 94%);
+    --background-electrico: linear-gradient(49deg, rgba(255,209,0,1) 4%, rgba(232,255,0,1) 26%, rgba(255,209,0,1) 51%, rgba(232,255,0,1) 74%, rgba(255,209,0,1) 97%);
+    --background-fuerza: linear-gradient(49deg, rgba(255,140,0,1) 0%, rgba(212,216,17,1) 26%, rgba(255,140,0,1) 51%, rgba(218,205,15,1) 74%, rgba(255,140,0,1) 100%);
+    --background-planta: linear-gradient(49deg, rgba(6,159,6,1) 4%, rgba(35,255,0,1) 26%, rgba(6,159,6,1) 51%, rgba(35,255,0,1) 75%, rgba(6,159,6,1) 97%);
+    --background-fuego: linear-gradient(49deg, rgba(255,72,0,1) 4%, rgba(255,128,0,1) 26%, rgba(255,72,0,1) 51%, rgba(255,128,0,1) 75%, rgba(255,72,0,1) 97%);
+    --background-psiquico: linear-gradient(49deg, rgba(135,0,164,1) 4%, rgba(192,3,233,1) 26%, rgba(135,0,164,1) 51%, rgba(192,3,233,1) 75%, rgba(135,0,164,1) 97%);
+
+    --icono-energia: url("../assets/iconos/icono_energia.png");
+    --icono-agua: url("../assets/iconos/icono_agua.png");
+    --icono-electrico: url("../assets/iconos/icono_electrico.png");
+    --icono-fuerza: url("../assets/iconos/icono_fuerza.png");
+    --icono-planta: url("../assets/iconos/icono_planta.png");
+    --icono-fuego: url("../assets/iconos/icono_fuego.png");
+    --icono-psiquico: url("../assets/iconos/icono_psiquico.png");
+
+    --icono-lupa: url("../assets/iconos/icono_lupa.png");
+    --icono-lista: url("../assets/iconos/icono_lista.png");
+    --icono-cuadrados: url("../assets/iconos/icono_cuadrados.png");
+}

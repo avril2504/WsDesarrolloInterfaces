@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --text-size-xs: 0.64rem;
+    --text-size-sm: 0.8rem;
+    --text-size-md: 1rem;
+    --text-size-lg: 1.25rem;
+    --text-size-xl: 1.56rem;
+    --text-size-2xl: 1.95rem;
+    --text-size-3xl: 2.44rem;
+    --text-size-4xl: 3.05rem;
+    --text-size-5xl: 3.81rem;
+
+    --color-light-bg: #ffffff;
+    --color-light-text: black;
+  
+   --font-primary-marketing: "Poppins", serif;
+   --font-secondary-marketing: "Inter", sans-serif;
+   --font-weight-bold: 900;
+   --font-weight-normal: 500;
+   --font-weight-thim: 200;
+
+   --border-div: 2px solid black;
+}
+
+.darkTheme{
+    --color-light-bg: black;
+    --color-light-text: white ;
+    --border-div: 2px solid white;
+}
+
+body{
+    background-color: var(--color-light-bg);
+    color: var(--color-light-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 20px;
+}
+
+div{
+    border: var(--border-div);
+    width: 80%;
+}
+
+h1,h2,h3,h4,h5{
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-primary-marketing);
+}
+
+.Bh1{
+    font-size: var(--text-size-xl);
+}
+.Bh2{
+    font-size: var(--text-size-lg);
+}
+.Bh3{
+    font-size: var(--text-size-md);
+}
+.Bh4{
+    font-size: var(--text-size-sm);
+}
+.Bh5{
+    font-size: var(--text-size-xs);
+}
+
+.Bfont_bold{
+    font-weight: var(--font-weight-bold);
+}
+
+.Bfont_normal{
+    font-weight: var(--font-weight-normal);
+}
+
+.Bfont_thim{
+    font-weight: var(--font-weight-thim);
+}
+
+/* Estilos para los párrafos */
+.Bcaption, .Bnote, .Bp {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-secondary-marketing);
+}
+

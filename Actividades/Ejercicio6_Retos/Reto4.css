@@ -1,0 +1,28 @@
+.contenedor{
+    display: flex;
+    gap: 2vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.carta{
+    width: 30vh;
+    height: 36vh;
+    border: 1px solid black;
+}
+
+.cuadrado{
+    width: 30vh;
+    height: 20vh;
+    background-color: gray;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.texto{
+    margin: 1vh;
+}

@@ -1,0 +1,138 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 42vh;
+    height: 72vh;
+    border: 0.3vh solid rgb(198, 198, 198);
+    border-radius: 2%;
+
+}
+
+img{
+    width: 42vh;
+}
+
+
+
+.contenedor__etiquetas{
+    margin-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+@media (min-width: 768px){
+    .contenedor{
+        flex-direction: row;
+        width: 80vh;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor{
+        width: 90vh;
+    }
+ }
+
+ @media (min-width: 1024px){
+    .contenedor__etiquetas{
+        margin-left: 4%;
+    }
+ }
+
+.etiquetas{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1rem; 
+
+
+}
+
+.etiquetas__gluten{
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: orangered;
+}
+
+.etiquetas__main{
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: orangered;
+}
+
+.titulo{
+
+    display: flex;
+    margin-bottom: 0.2rem;
+
+}
+
+.titulo__pizza{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+
+.Pizza__puntuacion{
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+
+.Pizza_stars{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.star {
+    width: 2.5vh;       /* Ajusta el tamaño de las estrellas aquí */
+    height: auto;
+
+}
+
+/* Alineación del texto de votos */
+.Pizza_votos {
+    margin: 0;
+    font-size: 0.6rem; 
+    font-weight: bold;
+    color: #666;
+}
+
+.comentario{
+    font-size: 0.7rem;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    width: 14vh;
+    height: 6vh;
+    border: 0.4vh solid rgb(228, 148, 101);
+    border-radius: 10%;
+
+}
+ .boton__contenido{
+    margin: 1vh;
+    display: flex;
+    width: 12vh;
+    height: 4vh;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+ }
+
+ .boton__guardar{
+    width: 2.5vh;       /* Ajusta el tamaño de las estrellas aquí */
+    height: auto;
+ }
+
+ .boton__save{
+    color: rgb(228, 148, 101);
+    font-weight: bold;
+ }

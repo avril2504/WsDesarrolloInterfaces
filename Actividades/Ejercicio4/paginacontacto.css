@@ -1,0 +1,26 @@
+form{
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.obligatorio{
+    border: 2px solid red;
+}
+
+.obligatorio:focus{
+    border-color: #007bff;
+}
+
+input[type="checkbox"]:checked + .checkbox-label {
+    color: #006400; /* Verde oscuro */
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+::selection{
+    background-color: #ff9800;
+    color: white;
+}

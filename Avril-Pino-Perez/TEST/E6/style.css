@@ -1,0 +1,28 @@
+/* Estilo global para centrar el cuadrado - NO TOCAR */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Cuadrado - RELLENAR*/
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(210, 182, 255);
+    animation-name: animacion;
+    animation-duration: 4s;
+}
+
+/* Animación con Keyframes - RELLENAR*/
+@keyframes  animacion{
+   0%{
+    rotate: 360deg;
+   }
+   50%{
+    scale: 150%;
+   }
+}
